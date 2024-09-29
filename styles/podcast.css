@@ -1,0 +1,162 @@
+.heading5-testimonials {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.22;
+  color: var(--dark-blue);
+}
+
+.main-content .title-section {
+  height: 520px;
+  background: url("https://www.itschool.ro/_next/static/media/background.008d1f37.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content .title-section .heading1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.main-content .video-section a {
+  text-decoration: none;
+}
+
+.main-content .icon-text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 96px 0px;
+  gap: 32px;
+  cursor: pointer;
+}
+
+.main-content .youtube-icon {
+  position: relative;
+  display: block;
+  margin: 0px 1.2rem;
+  width: 32px;
+  height: 32px;
+}
+
+.video-section .content {
+  padding: 48px;
+  display: flex;
+  gap: 20px;
+  box-shadow: rgba(25, 30, 48, 0.1) 0px 30px 60px 0px;
+  border-radius: 16px;
+  background-color: var(--white);
+  margin-top: -100px;
+}
+
+.main-content .video-section .content .img-side,
+.main-content .video-section .content .text-side {
+  width: calc(50% - 10px);
+}
+
+.main-content .text-side span {
+  font-size: 12px;
+  line-height: 1.6rem;
+}
+
+.main-content .video-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.main-content .video-section .text-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.main-content .vid-card a {
+  text-decoration: none;
+}
+
+.main-content .vid-cards .vid-card .content .img-side,
+.main-content .vid-cards .vid-card .content .text-side {
+  width: calc(50% - 10px);
+}
+
+.main-content .vid-card .content {
+  cursor: pointer;
+  background-color: rgb(252, 250, 247);
+  box-shadow: rgba(25, 30, 48, 0.1) 0px 30px 60px;
+  padding: 24px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  max-with: 50%;
+}
+
+.main-content .vid-card img {
+  max-width: 100%;
+  height: 90px;
+  border-radius: 12px;
+}
+
+.main-content .consiliere {
+  color: var(--light-gray);
+  flex-direction: column;
+}
+
+.main-content .consiliere .heading2 {
+  color: var(--light-gray);
+}
+
+.main-content .consiliere {
+  height: 520px;
+  background-image: url("https://www.itschool.ro/_next/static/media/background.c097b26b.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-content .consiliere .heading1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.main-content .vid-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.main-content .vid-card-container {
+  display: flex; 
+  flex-direction:row;
+  height: auto; 
+}
+
+.main-content .vid-card  {
+  flex: 1 calc(50% - 20px);
+  margin-bottom: 20px; 
+  height: auto; 
+}
+
+.img-side {
+  flex: 1; 
+}
+
+.text-side {
+  flex: 3;
+  padding-left: 10px; 
+}
+
+.heading3 {
+  margin-top: 0;
+  font-size: 18px;
+}

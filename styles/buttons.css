@@ -1,0 +1,100 @@
+.btn {
+  padding: 16px 64px;
+  background-color: var(--normal-gray);
+  border-radius: 24px;
+  font-size: 16px;
+  color: var(--white);
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn.btn-primary {
+  background-color: var(--button-blue);
+}
+
+.btn.btn-success {
+  background-color: var(--normal-green);
+}
+
+.btn.btn-white {
+  background-color: var(--normal-grey);
+  color: var(--normal-green);
+  border: 2px solid var(--normal-green);
+  cursor: pointer; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.btn.btn-white:hover {
+  background-color: var(--normal-green);
+  color: var(--normal-gray);
+}
+
+.centered-button {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  margin:0 auto;
+}
+
+.btn.btn-white-background {
+  background-color: var(--white);
+  color: var(--normal-green);
+  border: 2px solid var(--normal-gray);
+  cursor: pointer; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.btn.btn-white-background:hover {
+  background-color: var(--normal-gray);
+  color: var(--white);
+}
+
+.btn.btn-gray-border {
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--transparent-gray);
+  cursor: pointer; 
+  text-align: center; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.btn.btn-gray-border:hover {
+  background-color: var(--normal-gray);
+  border: 1px solid var(--normal-green);
+  color: var(--black);
+}
+
+  .centered-button-container-green-outline {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;          
+  }
+  
+  .centered-button-green-outline {
+    padding: 12px 32px;
+    background-color: transparent;
+    border-radius: 24px;
+    font-size: 16px;
+    width:18%;
+    color: var(--normal-green);
+    border: 1px solid var(--normal-green);
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .centered-button-green-outline svg {
+    margin-right: 8px; 
+  }
+
+  .centered-button-green-outline:hover {
+    background-color: var(--normal-green);
+    border: 1px solid var(--normal-green);
+    color: var(--white);
+  }

@@ -1,0 +1,89 @@
+.main-content .heroes-section .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top:70px;
+}
+
+.main-content .heroes-section .heroes-dropdown .content-wrapper {
+  display: flex;
+  gap: 30px;
+  width: 100%; 
+  padding: 100px; 
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main-content .heroes-section .content .container {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+}
+
+.main-content .heroes-section .container .card {
+  display: flex; 
+  background-color: rgb(253, 253, 253);
+  border-radius: 16px;
+  box-shadow: rgba(25, 30, 48, 0.1) 0px 20px 40px;
+  margin-bottom: 16px;
+  width: 100%; 
+  padding: 24px;
+  cursor: pointer;
+  overflow: hidden; 
+}
+
+.img-container {
+  flex-shrink: 0; 
+}
+
+.abs-img {
+  display: block;
+  max-width: 100px; 
+  height: auto; 
+  object-fit: cover; 
+  border-radius: 50%; 
+  margin-right: 16px; 
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+}  
+
+.card p {
+  margin: 0; 
+}
+
+.main-content .consiliere {
+  color: var(--light-gray);
+  flex-direction: column;
+}
+
+.main-content .consiliere .heading2 {
+  color: var(--light-gray);
+}
+
+.main-content .consiliere {
+  height: 520px;
+  background-image: url("https://www.itschool.ro/_next/static/media/background.c097b26b.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content .consiliere .heading1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+ 

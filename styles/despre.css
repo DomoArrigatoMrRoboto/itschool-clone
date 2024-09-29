@@ -1,0 +1,113 @@
+.main-content .title-section {
+    height: 520px;
+    background: url("https://www.itschool.ro/_next/static/media/background.008d1f37.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-content .title-section .heading1 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 50px;
+  }
+
+  .gap {
+    padding:50px;
+  }
+
+  .main-content .about .content-wrapper {
+    display:flex;
+    padding:70px;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .about-image {
+    display:block;
+    max-width:100%;
+  }
+
+  .main-content .traineri .comunitate {
+    background-image: url(https://www.itschool.ro/_next/static/media/background.570f46a1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .main-content .traineri .content-wrapper {
+    display:flex;
+    padding:70px;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+  }
+
+  .main-content .traineri .content-wrapper .row{
+    width:50%;
+    gap:30px;
+  }
+
+  .main-content .traineri .content-wrapper .trainer-img {
+    display:flex;
+    max-width:100%;
+    width:fit-content;
+    flex-direction: column;
+    object-fit: contain;
+    padding:30px;
+    overflow: hidden;
+  }
+
+  .main-content .comunitate {
+    display:flex; 
+    flex-direction: column;
+    padding:100px 80px 100px 80px;
+    border-top: 1px solid rgba(25, 30, 48, 0.1);
+    justify-content:center;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    font-size: 20px;
+    font-weight: normal;
+    white-space: pre-wrap;
+    text-align: center;
+  }
+
+  .main-content .locatii {
+    padding:100px 80px 100px 80px;
+    border-bottom: 1px solid rgba(25, 30, 48, 0.1);
+  }
+
+  .main-content .locatii .content-wrapper {
+    display:flex;
+    padding:70px;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+  }
+
+  .main-content .locatii .content-wrapper .row{
+    width:50%;
+    gap:30px;
+  }
+
+  .main-content .locatii .gallery {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 30px;
+  }
+
+  .main-content .locatii .gallery .gallery-img{
+    flex-grow: 1;
+    overflow: hidden;
+    max-with:100%;
+    width:300px;
+  }
+
+  .main-content .locatii .gallery .gallery-img .gallery-img-bg{
+    flex-basis: calc(50% - 10px);
+  }
+
+  .main-content .locatii .gallery .gallery-img .gallery-img-sm{
+    flex-basis: calc(25% - 10px); 
+  }
